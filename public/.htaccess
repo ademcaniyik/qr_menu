@@ -1,0 +1,12 @@
+<IfModule mod_rewrite.c>
+  Options -Multiviews
+  RewriteEngine On
+  RewriteBase /qr_menu_system/public
+  RewriteCond %{REQUEST_FILENAME} !-d
+  RewriteCond %{REQUEST_FILENAME} !-f
+  RewriteRule ^$ index.php?url=pages/index [QSA,L]
+  RewriteRule ^businesses/?$ index.php?url=businesses/index [QSA,L]
+  RewriteRule ^menus/?$ index.php?url=menus/index [QSA,L]
+  RewriteRule ^([^/]+)/?$ index.php?url=qrcodes/showMenu/$1 [QSA,L]
+  RewriteRule  ^(.+)$ index.php?url=$1 [QSA,L]
+</IfModule>

@@ -1,0 +1,437 @@
+/* Custom CSS */
+.navbar {
+    margin-bottom: 1rem;
+}
+
+.card {
+    border: none;
+    border-radius: 15px;
+    background: #fff;
+}
+
+.card-body {
+    padding: 2rem !important;
+}
+
+.btn-block {
+    display: block;
+    width: 100%;
+}
+
+/* QR Code styles */
+.qr-code-container {
+    text-align: center;
+    margin: 2rem 0;
+}
+
+.qr-code-container img {
+    max-width: 200px;
+    height: auto;
+}
+
+/* Menu Item Card */
+.menu-item-card {
+    margin-bottom: 1.5rem;
+    transition: transform 0.2s;
+}
+
+.menu-item-card:hover {
+    transform: translateY(-5px);
+}
+
+.menu-item-image {
+    height: 200px;
+    object-fit: cover;
+}
+
+/* Business Card */
+.business-card {
+    margin-bottom: 2rem;
+}
+
+.business-logo {
+    max-height: 100px;
+    object-fit: contain;
+}
+
+/* Dashboard Stats */
+.stats-card {
+    background: linear-gradient(45deg, #007bff, #0056b3);
+    color: white;
+    padding: 1.5rem;
+    border-radius: 10px;
+    margin-bottom: 1rem;
+}
+
+.stats-icon {
+    font-size: 2.5rem;
+    margin-bottom: 1rem;
+}
+
+/* Menu View Styles */
+.menu-header {
+    padding: 3rem 0;
+    background: linear-gradient(135deg, #f8f9fa 0%, #e9ecef 100%);
+    border-radius: 1rem;
+    margin: -1.5rem -15px 2rem;
+}
+
+.category-navigation {
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+    background: rgba(255, 255, 255, 0.95);
+    padding: 1rem 0;
+    backdrop-filter: blur(10px);
+    margin: 0 -15px;
+    border-bottom: 1px solid rgba(0,0,0,0.1);
+}
+
+.category-navigation .nav-link {
+    color: #495057;
+    font-weight: 500;
+    padding: 0.75rem 1.5rem;
+    border-radius: 2rem;
+    margin: 0 0.25rem;
+    transition: all 0.2s ease-in-out;
+}
+
+.category-navigation .nav-link:hover {
+    background-color: #e9ecef;
+}
+
+.category-navigation .nav-link.active {
+    background-color: #0d6efd;
+    color: white;
+}
+
+.category-title {
+    position: relative;
+    padding-bottom: 1rem;
+    margin-bottom: 2rem;
+    color: #212529;
+}
+
+.category-title::after {
+    content: '';
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 50px;
+    height: 3px;
+    background-color: #0d6efd;
+    border-radius: 3px;
+}
+
+.menu-item-card {
+    border: none;
+    border-radius: 1rem;
+    box-shadow: 0 3px 15px rgba(0,0,0,0.08);
+    transition: transform 0.2s ease-in-out;
+    background: white;
+}
+
+.menu-item-card:hover {
+    transform: translateY(-5px);
+}
+
+.menu-item-image {
+    height: 200px;
+    object-fit: cover;
+    border-top-left-radius: 1rem;
+    border-top-right-radius: 1rem;
+}
+
+.price-text {
+    font-weight: 600;
+    color: #0d6efd;
+    font-size: 1.1rem;
+}
+
+.unavailable-badge {
+    position: absolute;
+    bottom: 1rem;
+    right: 1rem;
+    background: rgba(255, 193, 7, 0.1);
+    color: #ffc107;
+    padding: 0.5rem 1rem;
+    border-radius: 2rem;
+    font-size: 0.875rem;
+    font-weight: 500;
+}
+
+.category-description {
+    font-size: 1.1rem;
+    color: #6c757d;
+}
+
+/* Menu Action Buttons */
+.menu-action-btn {
+    padding: 8px 16px;
+    margin: 0 4px;
+    font-size: 14px;
+    font-weight: 600;
+    text-transform: none;
+    letter-spacing: 0.3px;
+    border-radius: 4px;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    min-width: 32px;
+    transition: all 0.2s ease;
+    text-shadow: 0 1px 2px rgba(0,0,0,0.2);
+}
+
+.menu-action-btn i {
+    margin-right: 6px;
+    font-size: 14px;
+}
+
+.menu-action-btn.btn-success {
+    background-color: #2ecc71;
+    border-color: #27ae60;
+    color: white;
+    box-shadow: 0 2px 4px rgba(46, 204, 113, 0.2);
+}
+
+.menu-action-btn.btn-success:hover {
+    background-color: #27ae60;
+    border-color: #219a52;
+}
+
+.menu-action-btn.btn-primary {
+    background-color: #3498db;
+    border-color: #2980b9;
+    color: white;
+    box-shadow: 0 2px 4px rgba(52, 152, 219, 0.2);
+}
+
+.menu-action-btn.btn-primary:hover {
+    background-color: #2980b9;
+    border-color: #2472a4;
+}
+
+.menu-action-btn.btn-danger {
+    background-color: #e74c3c;
+    border-color: #c0392b;
+    color: white;
+    box-shadow: 0 2px 4px rgba(231, 76, 60, 0.2);
+}
+
+.menu-action-btn.btn-danger:hover {
+    background-color: #c0392b;
+    border-color: #a93226;
+}
+
+.menu-action-btn:hover {
+    transform: translateY(-1px);
+    box-shadow: 0 4px 8px rgba(0,0,0,0.15);
+    color: white;
+    text-decoration: none;
+}
+
+/* Category Card */
+.category-card {
+    margin-bottom: 1.5rem;
+    border-radius: 8px;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+    border: none;
+}
+
+.category-card .card-header {
+    background-color: #f8f9fa;
+    border-bottom: 1px solid rgba(0,0,0,0.1);
+    padding: 1rem;
+    border-radius: 8px 8px 0 0;
+}
+
+.category-card .card-title {
+    font-size: 1.1rem;
+    font-weight: 600;
+    color: #2c3e50;
+    margin: 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.category-actions {
+    display: flex;
+    gap: 8px;
+    align-items: center;
+}
+
+/* Table Styles */
+.menu-table {
+    margin-top: 1rem;
+    border-radius: 8px;
+    overflow: hidden;
+}
+
+.menu-table th {
+    background-color: #f8f9fa;
+    font-weight: 600;
+    color: #2c3e50;
+    border-top: none;
+    padding: 12px 16px;
+}
+
+.menu-table td {
+    vertical-align: middle;
+    padding: 12px 16px;
+    color: #34495e;
+}
+
+.menu-table tr:hover {
+    background-color: #f8f9fa;
+}
+
+/* Dark mode styles */
+@media (prefers-color-scheme: dark) {
+    body {
+        background-color: #212529;
+        color: #f8f9fa;
+    }
+
+    .menu-header {
+        background: linear-gradient(135deg, #2c3034 0%, #212529 100%);
+    }
+
+    .category-navigation {
+        background: rgba(33, 37, 41, 0.95);
+        border-bottom-color: rgba(255,255,255,0.1);
+    }
+
+    .category-navigation .nav-link {
+        color: #e9ecef;
+    }
+
+    .category-navigation .nav-link:hover {
+        background-color: #343a40;
+    }
+
+    .menu-item-card {
+        background-color: #2c3034;
+        box-shadow: 0 3px 15px rgba(0,0,0,0.2);
+    }
+
+    .category-title {
+        color: #f8f9fa;
+    }
+
+    .text-muted {
+        color: #adb5bd !important;
+    }
+
+    .price-text {
+        color: #0d6efd;
+    }
+
+    .unavailable-badge {
+        background: rgba(255, 193, 7, 0.15);
+    }
+}
+
+/* Ana renkler */
+:root {
+    --primary-color: #2c3e50;
+    --secondary-color: #34495e;
+    --accent-color: #3498db;
+    --text-color: #2c3e50;
+    --light-text: #7f8c8d;
+}
+
+/* Form stilleri */
+.card {
+    border: none;
+    border-radius: 15px;
+    background: #fff;
+}
+
+.card-body {
+    padding: 2rem !important;
+}
+
+/* Başlıklar */
+h2, h4 {
+    color: var(--primary-color);
+    font-weight: 600;
+}
+
+/* Form etiketleri */
+.form-label {
+    color: var(--text-color);
+    font-weight: 500;
+    margin-bottom: 0.5rem;
+}
+
+/* Form inputları */
+.form-control {
+    border: 2px solid #eee;
+    border-radius: 8px;
+    padding: 0.75rem;
+    transition: all 0.3s ease;
+}
+
+.form-control:focus {
+    border-color: var(--accent-color);
+    box-shadow: 0 0 0 0.2rem rgba(52, 152, 219, 0.25);
+}
+
+/* Hata mesajları */
+.invalid-feedback {
+    color: #e74c3c;
+    font-size: 0.875rem;
+}
+
+/* Butonlar */
+.btn-primary {
+    background-color: var(--accent-color);
+    border: none;
+    padding: 0.75rem 1.5rem;
+    font-weight: 500;
+    border-radius: 8px;
+    transition: all 0.3s ease;
+}
+
+.btn-primary:hover {
+    background-color: #2980b9;
+    transform: translateY(-1px);
+}
+
+/* Link stilleri */
+.card a {
+    color: var(--accent-color);
+    text-decoration: none;
+    transition: all 0.3s ease;
+}
+
+.card a:hover {
+    color: #2980b9;
+    text-decoration: underline;
+}
+
+/* Link ve metin stilleri */
+.card p {
+    color: var(--text-color);
+    font-weight: 500;
+}
+
+.card a {
+    color: var(--accent-color);
+    text-decoration: none;
+    transition: all 0.3s ease;
+    font-weight: 600;
+}
+
+.card a:hover {
+    color: #2980b9;
+    text-decoration: underline;
+}
+
+/* Responsive düzenlemeler */
+@media (max-width: 768px) {
+    .card-body {
+        padding: 1.5rem !important;
+    }
+}

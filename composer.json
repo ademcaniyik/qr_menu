@@ -1,0 +1,17 @@
+{
+    "name": "qr-menu-system/app",
+    "description": "QR Menu Management System",
+    "type": "project",
+    "require": {
+        "php": ">=8.0",
+        "chillerlan/php-qrcode": "^4.3",
+        "vlucas/phpdotenv": "^5.5",
+        "phpmailer/phpmailer": "^6.8",
+        "endroid/qr-code": "^4.8"
+    },
+    "autoload": {
+        "psr-4": {
+            "App\\": "app/"
+        }
+    }
+}
