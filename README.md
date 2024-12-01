@@ -98,5 +98,5 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 
 ## 📧 Contact
 
-Your Name - [@yourusername](https://twitter.com/yourusername)
-Project Link: [https://github.com/yourusername/qr-menu-system](https://github.com/yourusername/qr-menu-system)
+Your Name - [@ademcaniyik](https://twitter.com/iyikademcan)
+Project Link: [https://github.com/ademcaniyik/qr-menu-system](https://github.com/ademcaniyik/qr-menu-system)
