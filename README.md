@@ -139,5 +139,5 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 
 ## 📧 Contact
 
-Your Name - [@ademcaniyik](https://twitter.com/ademcaniyik)
+Adem Can IYIK
 Project Link: [https://github.com/ademcaniyik/qr_menu](https://github.com/ademcaniyik/qr_menu)
