@@ -2,7 +2,23 @@
 
 A modern, efficient QR code-based digital menu management system for restaurants and cafes.
 
-![QR Menu System](public/assets/images/preview.png)
+## 📸 Screenshots
+
+### Admin Dashboard
+![Admin Dashboard](public/assets/screenshots/admin-dashboard.png)
+*Admin panel where you can manage all aspects of your restaurant*
+
+### Menu Management
+![Menu Management](public/assets/screenshots/menu-management.png)
+*Easy-to-use interface for managing menu items and categories*
+
+### QR Code Generation
+![QR Code](public/assets/screenshots/qr-code.png)
+*Generate and customize QR codes for your tables*
+
+### Customer View
+![Customer View](public/assets/screenshots/customer-view.png)
+*Mobile-friendly menu view for customers*
 
 ## 🚀 Features
 
@@ -15,6 +31,41 @@ A modern, efficient QR code-based digital menu management system for restaurants
 - **Real-time Updates**: Instant menu updates without regenerating QR codes
 - **Customizable Themes**: Multiple theme options for menu display
 
+## 🛠️ Technology Stack
+
+### Backend
+- **Language**: PHP 8.0+
+- **Framework**: Custom MVC Framework
+- **Database**: MySQL 5.7+
+- **Server**: Apache/Nginx
+- **Authentication**: Custom JWT implementation
+- **Cache System**: File-based caching system
+- **API**: RESTful API architecture
+
+### Frontend
+- **HTML5** & **CSS3**
+- **JavaScript** (Vanilla JS)
+- **Bootstrap 5** for responsive design
+- **Font Awesome** for icons
+- **jQuery** for DOM manipulation
+- **AJAX** for asynchronous requests
+
+### Security Features
+- **CSRF Protection**
+- **XSS Prevention**
+- **SQL Injection Protection**
+- **Rate Limiting**
+- **Input Validation**
+- **Secure Session Management**
+
+### Development Tools
+- **Composer** for dependency management
+- **Git** for version control
+- **PHPMailer** for email functionality
+- **QR Code Libraries**: 
+  - chillerlan/php-qrcode
+  - endroid/qr-code
+
 ## 📋 Requirements
 
 - PHP 8.0 or higher
@@ -26,8 +77,8 @@ A modern, efficient QR code-based digital menu management system for restaurants
 
 1. Clone the repository:
 ```bash
-git clone https://github.com/yourusername/qr-menu-system.git
-cd qr-menu-system
+git clone https://github.com/ademcaniyik/qr_menu.git
+cd qr_menu
 ```
 
 2. Install dependencies:
@@ -55,16 +106,6 @@ chmod 755 -R cache/
 ```bash
 php -S localhost:8000 -t public/
 ```
-
-## 🔧 Technologies Used
-
-- **Backend**: PHP 8.0+
-- **Database**: MySQL 5.7+
-- **Frontend**: HTML5, CSS3, JavaScript, Bootstrap 5
-- **QR Code**: PHPQRCode, Endroid QR Code
-- **Dependencies**: Composer
-- **Mail**: PHPMailer
-- **Environment**: DotEnv
 
 ## 📱 Usage
 
@@ -98,5 +139,5 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 
 ## 📧 Contact
 
-Your Name - [@yourusername](https://twitter.com/yourusername)
-Project Link: [https://github.com/yourusername/qr-menu-system](https://github.com/yourusername/qr-menu-system)
+Your Name - [@ademcaniyik](https://twitter.com/ademcaniyik)
+Project Link: [https://github.com/ademcaniyik/qr_menu](https://github.com/ademcaniyik/qr_menu)
